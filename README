@@ -1,0 +1,10 @@
+Attempt to make standalone flash programming tool for P&E USB BDM Multilink Cable to use with Freescale MCUs.
+
+To make this shit work, you need to steal somewhere this pack of proprietary blobs and put them to lib directory
+989ce94e9621843ae5fc947cafa5d075  libborunwind.so.6.0
+27d737101c07174d0829fd372af88578  libUnit_cfz.so
+6ca9ef28008e2d24ae2df0fc8e79bc97  libwdapi1002.so
+c20d30efcfbca50f312e8d0ec7f70702  peosbdmv1.so
+27d737101c07174d0829fd372af88578  unit_cfz_v1.so
+
+some can be stolen from pemicro windrvr drivers, some others - from freescale codewarrior
