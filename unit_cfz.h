@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 
-#define DEBUG(fmt, ...) fprintf(stderr, fmt, __VA_ARGS__)
+#define DEBUG(fmt, ...) fprintf(stderr, fmt, ##__VA_ARGS__)
 
 #define _cdecl __attribute__((cdecl))
 
