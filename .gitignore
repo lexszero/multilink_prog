@@ -1,1 +1,5 @@
 lib/*
+*.o
+.dep/*
+multilink_prog
+.*.swp
